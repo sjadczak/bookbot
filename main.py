@@ -31,7 +31,8 @@ def main():
     wc = word_count(text)
     cc = char_count(text)
     sl = sorted_char_count_list(cc)
-
+    
+    print("----------- Word Count ----------")
     print(f"Found {wc} total words")
     print("--------- Character Count -------")
 
